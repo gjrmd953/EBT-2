@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg  menu">
+    <div class="container">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="product.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="product-details.html">Product Details</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="signup.html">Signup </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+  <!-- Breadcrumb start -->
+  <!-- <nav aria-label="breadcrumb" class="bg-light py-3">
+    <div class="container">
+      <ol class="breadcrumb mb-0">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Products</li>
+      </ol>
+    </div>
+  </nav> -->
+  <!-- Breadcrumb end -->
+
+  <section class="py-5">
+    <div class="container">
+      <!-- Section Title -->
+      <!-- <div class="text-center mb-5">
+        <h2 class="fw-bold">Best Sellers</h2>
+        <p class="text-muted">Our most popular products</p>
+      </div> -->
+
+      <!-- Two Column Layout: Categories (Left) and Products (Right) -->
+      <div class="row g-4">
+        
+        <!-- Left Panel: Categories Accordion -->
+        <div class="col-lg-3">
+          <div class="accordion" id="categoriesAccordion">
+            <!-- Category 1 -->
+            <!-- <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseElectronics" aria-expanded="true"
+                  aria-controls="collapseElectronics">
+                  Electronics
+                </button>
+              </h2>
+              <div id="collapseElectronics" class="accordion-collapse collapse show"
+                data-bs-parent="#categoriesAccordion">
+                <div class="accordion-body">
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="text-decoration-none">Headphones</a></li>
+                    <li><a href="#" class="text-decoration-none">Speakers</a></li>
+                    <li><a href="#" class="text-decoration-none">Cables</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- Category 2 -->
+            <!-- <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseWearables" aria-expanded="false"
+                  aria-controls="collapseWearables">
+                  Wearables
+                </button>
+              </h2>
+              <div id="collapseWearables" class="accordion-collapse collapse"
+                data-bs-parent="#categoriesAccordion">
+                <div class="accordion-body">
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="text-decoration-none">Smartwatches</a></li>
+                    <li><a href="#" class="text-decoration-none">Fitness Trackers</a></li>
+                    <li><a href="#" class="text-decoration-none">Smart Bands</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- Category 3 -->
+            <!-- <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseAccessories" aria-expanded="false"
+                  aria-controls="collapseAccessories">
+                  Accessories
+                </button>
+              </h2>
+              <div id="collapseAccessories" class="accordion-collapse collapse"
+                data-bs-parent="#categoriesAccordion">
+                <div class="accordion-body">
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="text-decoration-none">Cases</a></li>
+                    <li><a href="#" class="text-decoration-none">Chargers</a></li>
+                    <li><a href="#" class="text-decoration-none">Adapters</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+
+        <!-- Right Panel: Product Row -->
+        <div class="col-lg-9">
+          <div class="row g-4">
+            <!-- Product 1 -->
+            <!-- <div class="col-lg-4 col-md-6">
+              <div class="card h-100 shadow-sm">
+                <span class="badge bg-danger position-absolute m-2">Best</span>
+                <img src="./images/sho.jpg" class="card-img-top" alt="Product" />
+                <div class="card-body text-center">
+                  <h6 class="card-title">Wireless Headphone</h6>
+                  <p class="fw-bold mb-2">$59.99</p>
+                  <a href="product-details.html" class="btn btn-outline-primary btn-sm">
+                    Add to Cart
+                  </a>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- Product 2 -->
+            <!-- <div class="col-lg-4 col-md-6">
+              <div class="card h-100 shadow-sm">
+                <span class="badge bg-danger position-absolute m-2">Best</span>
+                <img src="./images/product-2.jpg" class="card-img-top" alt="Product" />
+                <div class="card-body text-center">
+                  <h6 class="card-title">Smart Watch</h6>
+                  <p class="fw-bold mb-2">$79.99</p>
+                  <a href="product-details.html" class="btn btn-outline-primary btn-sm">
+                    Add to Cart
+                  </a>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- Product 3 -->
+            <!-- <div class="col-lg-4 col-md-6">
+              <div class="card h-100 shadow-sm">
+                <span class="badge bg-danger position-absolute m-2">Best</span>
+                <img src="./images/product-3.jpg" class="card-img-top" alt="Product" />
+                <div class="card-body text-center">
+                  <h6 class="card-title">Bluetooth Speaker</h6>
+                  <p class="fw-bold mb-2">$45.00</p>
+                  <a href="product-details.html" class="btn btn-outline-primary btn-sm">
+                    Add to Cart
+                  </a>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- Product 4 -->
+            <!-- <div class="col-lg-4 col-md-6">
+              <div class="card h-100 shadow-sm">
+                <span class="badge bg-danger position-absolute m-2">Best</span>
+                <img src="./images/product-4.jpg" class="card-img-top" alt="Product" />
+                <div class="card-body text-center">
+                  <h6 class="card-title">Gaming Mouse</h6>
+                  <p class="fw-bold mb-2">$29.99</p>
+                  <a href="product-details.html" class="btn btn-outline-primary btn-sm">
+                    Add to Cart
+                  </a>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- footer part start -->
+  <section id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="one">
+            <h2>MD JASHIM UDDIN</h2>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="foot_manu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="product.html">Product</a></li>
+              <li><a href="product-details.html">Product Details</a></li>
+              <li><a href="signup.html">Signup</a></li>
+              <li><a href="login.html">Login</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="last">
+            <ul>
+              <li>gjrmd953@gmail.com</li>
+              <li>facebook</li>
+              <li>gitgub</li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer part end -->
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
