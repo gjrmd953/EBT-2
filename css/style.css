@@ -145,3 +145,11 @@ button {
     max-height: 80px;
     object-fit: contain;
 }
+
+
+/* footer part start */
+
+.last ul li {
+ padding-bottom: 20px;
+}
+/* footer part end */
