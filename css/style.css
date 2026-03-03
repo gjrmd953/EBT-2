@@ -16,6 +16,7 @@ a{
     color: white !important;
     font-size: 16px;
     font-weight: bold;
+    font-family: "Poppins", sans-serif;
 }
 .menu{
     background: teal;
@@ -38,6 +39,7 @@ a{
 #me .about h2{
     font-size: 50px;
     color: white;
+    font-family: "Poppins", sans-serif;
 }
 
 
