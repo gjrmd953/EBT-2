@@ -156,7 +156,9 @@ button {
     color: white;
     padding: 100px 0;
 }
-
+.one h2{
+    font-family: "Poppins", sans-serif;
+}
 #footer .foot_manu li a {
     color: white;
     font-size: 16px;
