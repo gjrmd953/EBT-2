@@ -13,6 +13,9 @@ a {
 }
 
 /* menu part start */
+.menu a{
+    color: white !important;
+}
 .menu ul li a {
     padding: 0 40px !important;
     color: white !important;
